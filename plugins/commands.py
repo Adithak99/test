@@ -43,7 +43,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🎖 Main Channel 🎖', url=f'http://t.me/film_hous')
             ],[
-            InlineKeyboardButton('🔍 Search', url=f'http://t.me/film_hous'),
+            InlineKeyboardButton('▶ Owner ◀', url=f'https://t.me/Brocklesnarqt'),
             InlineKeyboardButton('🤖 Group', url='https://t.me/film_housc')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
