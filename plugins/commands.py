@@ -41,7 +41,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🎖 Main Channel 🎖', url=f'http://t.me/film_hous')
+            InlineKeyboardButton('🎖 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎖', url=f'http://t.me/film_hous')
             ],[
             InlineKeyboardButton('▶ Owner', url=f'https://t.me/Brocklesnarqt'),
             InlineKeyboardButton('🤖 Group', url='https://t.me/film_housc')
